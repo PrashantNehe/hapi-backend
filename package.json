@@ -4,7 +4,7 @@
   "description": "\"Backend Application\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -22,10 +22,14 @@
   "homepage": "https://github.com/PrashantNehe/hapi-backend#readme",
   "dependencies": {
     "@hapi/hapi": "^20.2.2",
+    "@hapi/inert": "^6.0.5",
+    "@hapi/vision": "^6.1.0",
     "ajv": "^8.11.0",
-    "swagger": "^0.7.5"
+    "hapi-swagger": "^14.4.0",
+    "joi": "^17.6.0"
   },
   "devDependencies": {
+    "jest": "^28.1.0",
     "nodemon": "^2.0.16"
   }
 }
